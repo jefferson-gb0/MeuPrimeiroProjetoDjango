@@ -3,7 +3,7 @@ from mailbox import NotEmptyError
 from tkinter import CASCADE
 from django.db import models
 
-# testando conflitos.
+# crei seus modelos aqui.
 class Departamento(models.Model):
     nome = models.CharField(max_length=20) 
 
