@@ -29,4 +29,6 @@ class Funcionario(models.Model):
     salario = models.DecimalField(max_digits=10, decimal_places=2)
     data_nascimento = models.DateField(null=True)
 
+class meta:
+    ordering = ['nome']
 
